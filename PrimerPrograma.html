@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa</title>
+</head>
+<body>
+<script>
+promedio=prompt('Escribe tu promedio');
+pregrado=prompt('Si estas en pregrado escribe 1 o 2 para posgrado');
+if (promedio=>45){
+    
+    
+    if (pregrado=1) {
+        document.write('Este curso tiene un valor de: $'+50000*28-(50000*28));
+    } else{
+        document.write("Este curso tiene un valor de: $"+300000*28);
+    }
+}else if (promedio=>40&&promedio<45) {
+    if (pregrado=1) {
+        document.write("Este curso tiene un valor de: $"+50000*28);
+    }else{
+        document.write("Este curso tiene un valor de: $"+300000*28);
+    }
+}
+if (promedio=>40&&promedio<45&&pregrado=1){
+    document.write("Este curso tiene un valor de: $"+50000*28);
+}else{
+    document.write("Este curso tiene un valor de: $"+300000*28);
+}
+    
+    </script>
+</body>
+</html>
